@@ -1,0 +1,12 @@
+app:
+  posts:
+    url: https://jsonplaceholder.typicode.com/posts
+  users:
+    url: https://jsonplaceholder.typicode.com/users
+  albums:
+    url:
+      https://jsonplaceholder.typicode.com/albums
+
+application:
+    jwt: 0cefba4ee57d4f2effa0702f67cd95f0a5743d32c7cc2f1723523d680bfad8122eb3ada53d2f7474940ce227024057c40178d686b6b184a4ed5147c5a824178e9f02a6dc6fd144452bd93b143d2756d0a0a9c3e3096441678a05ec576f41869bfda6dfa63a4a39a4f8a9ec99fde58c2daaefb62a461d53f99a968f99e1e213273ec732c0c6a9ca54042755479a7eb2eb522cb0c31b8bf4c8e13c79dcfbeceb6417fc9770e35482779522a530dd8b03b21d4249db5f6d6378663e61a2560d390299227867b7ae39f5b07ec956a410328caf7f2704050f15b756c12965b01b49e24dfc07fc2fb3f386610a0acda75f1ec44ad5de40b3ad9b7bf8d5f5a10b168f1a
+    key: 9999999

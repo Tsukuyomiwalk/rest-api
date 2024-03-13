@@ -1,0 +1,21 @@
+services:
+  postgresql:
+    image: postgres:16
+    container_name: vk_internship
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: vk_internship
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    volumes:
+      - postgresql:/var/lib/postgresql/data
+    networks:
+      - backend
+
+
+volumes:
+  postgresql: { }
+
+networks:
+  backend: { }
